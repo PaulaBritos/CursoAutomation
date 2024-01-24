@@ -51,7 +51,6 @@ public class Colecciones {
 
         listaDeCompras.remove(1);
         System.out.println("Mi nueva lista de compras es: " +listaDeCompras);
-        //AAAAAAAAAAAAAAH ME ESTA SALIENDO TODOOOOOOOOOOO Y ESTOY ENTENDIENDO. VAMO CARAJO <3
 
 
     }
