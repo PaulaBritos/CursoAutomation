@@ -1,5 +1,34 @@
-package Calculadora;
+package Ejercicio1;
 
-public class Parte2 {
+public class Calculadora {
+    public static int sumar(int a, int b) {
+        return a + b;
+    }
 
+    public static int restar(int a, int b) {
+        return a - b;
+    }
+
+    public static int multiplicar(int a, int b) {
+        return a * b;
+    }
+
+    public static int dividir(int a, int b) {
+        if (b != 0) {
+            return a / b;
+        } else  {
+            System.out.println("No se puede dividir por 0!");
+            return 0;
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
